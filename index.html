@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL PROJECT</title>
+    <link rel="stylesheet" href="project.css">
+    <style>
+        body{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+.main-container {
+    margin-bottom: 50px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #d8e267;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+#button {
+    background-color: #d8e267;
+    color: #035a53;
+    height: 34px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-center>a {
+  margin: 0 20px;
+}
+.navbar>a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.homer {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.service {
+    text-decoration: none;
+    color: black;
+}
+.facility {
+    text-decoration: none;
+    color: black;
+}
+.about {
+    text-decoration: none;
+    color: black;
+}
+.Medilop {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.sign {
+    background-color: black;
+    color: #ddd;
+    margin-right: 20px;
+}
+.log {
+    text-align: right;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+.head1 {
+    font-family: Georgia, 'Times New Roman', 
+    Times, serif;
+    margin-left: 20px;
+}
+.container {
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin-inline: auto;
+}
+.image {
+    height: 400px;
+    width: 600px;
+    top: 0;
+    margin-left: 40px;
+  }
+  .button {
+    color: aliceblue;
+    background-color: black;
+    height: 35px;
+    width: 80px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    margin-left: 0px;
+    padding: 0px;
+    border-left: 0px;
+    margin-right: 30px;
+}
+#password {
+    height: 30px;
+    width: 300px;
+    padding: 0px;
+    border-width: 2px;
+    border-color: black;
+}
+.sub-container44 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.sub-container44 .span-div {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #d8e267;
+    color: #035a53;
+    align-items: center;
+}
+.sub-span {
+    font-size: 3rem;
+}
+.span-text {
+    text-transform: uppercase;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #d8e267;
+    color: #035a53;
+    text-align: center;
+    height: auto;
+    bottom: 0;
+}
+.bestservice {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #fcfcfc;
+}
+.parag {
+    flex-direction: column;
+}
+.kin {
+    flex-direction: column;
+    margin-left: 20px;
+}
+.myimage {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin: auto;
+}
+.sub-bestservice {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #fcfcfc;
+    color: #035a53;
+    align-items: center;
+}
+.otherpics {
+    display: flex;
+    padding: 2rem;
+    background-color: #fcfcfc;
+    color: #035a53;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.caps {
+    font-weight: bold;
+}
+.more {
+    display: flex;
+    padding: 2rem;
+    background-color: #fcfcfc;
+    color: #035a53;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+.main-doctors {
+    display: flex;
+    padding: 2rem;
+    background-color: #d8e267;
+    color: #035a53;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+.someinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #d8e267;
+    color: #035a53;
+    margin: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+.Doctor22 {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+.button44 {
+    color: aliceblue; 
+    background-color: black;
+    width: 120px; 
+    height: 30px;
+}
+.sub-doctor22 {
+    margin-right: 20px;
+    height: 500px;
+}
+.onlinecare {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.about44 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <div class="main-container">
+        <div class="navbar">
+            <div class="navbar-left">
+                <a href="Bfsuma" class="Bfsuma">
+                    <i class="bi bi-h-circle-fill">&#xF7FA;</i>
+                    <strong>Bf</strong>suma7
+                </a>
+            </div>
+            <div class="navbar-center">
+                <a href="#home" class="homer">Home</a>
+                <a href="#Services" class="service">Services</a>
+                <a href="#Facility" class="facility">Facility</a>
+                <a href="#About" class="about">About us</a>
+            </div>
+            <div class="navbar-right">
+                <a href="login" class="log">
+                    Log In
+                    <button class="sign">Sign Up</button>
+                </a>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="kin">
+                <h1 class="head1"><strong> your health <br>
+                    Your wealth</strong></h1>
+                    <div class="parag">
+                        <p>Our health providers ensure that
+                            you have been attended on in due time.<br><br>
+                            Ensure to follow doctors instruction
+                            and keep safe.<br><br>
+                            <label for="password" ></label>
+                            <input type="text" id="password"
+                             name="password">
+                            <button class="button">Sign up</button>
+                        </p>
+                        <button id="button">Back Now</button>
+                        <a>Play Video</a>
+                    </div>
+            </div>
+                <img src="doctor patient communication.jpg" 
+                alt="doctor" class="image">
+        </div>
+    </div>
+    <div class="sub-container44">
+        <div class="span-div">
+            <span class="sub-span">95%</span>
+            <p class="span-text">recovery rate</p>
+        </div>
+        <div class="span-div">
+            <span class="sub-span">1,500+</span>
+            <p class="span-text">Employed</p>
+        </div>
+        <div class="span-div">
+            <span class="sub-span">3,000+</span>
+            <p class="span-text">recovered</p>
+        </div>
+        <div class="span-div">
+            <span class="sub-span">100%</span>
+            <p class="span-text">Transparency</p>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 3rem;">Our Best <strong>Services</strong></div>
+    <div class="bestservice">
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="0f268185754236facab219156bb71694.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">All Specialist</p>
+            <p>Doctor name and brief information</p>
+        </div>
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="180831hcqatweedy-editorial.qatweedy.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">Private & Secure</p>
+            <p>What do we write on private & secure?</p>
+        </div>
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="Becoming-a-medical-doctor-or-physician-in-Germany.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">Million Customers</p>
+            <p>Number of customers in the piture to show.</p>
+        </div>
+        <div class="sub-bestservice" style="padding: 30px; background-color: #d8e267; margin: 10px;">
+            <span class="myimage"><img 
+                src="doctors_visit_1200x900.jpg" alt="" style="width: 200px; 
+                border-radius: 50%; height: 200px;"></span>
+            <p class="caps">Chatbot Support</p>
+            <p>Chat bot support need something special I will put here.</p>
+        </div>
+    </div>
+    <div class="otherpics">
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="baby health.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Baby Health</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="stomach health.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Stomach</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="psychiatry.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Psychiatry</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="urology.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Urology</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="dermatology.jpg" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Dermatology</p>
+        </div>
+        <div style="padding: 50px; background-color: #d8e267; margin: 10px;">
+            <span><img src="infectious.webp" alt="" style="width: 150px; 
+                border-radius: 50%; height: 150px;"></span>
+            <p>Infectous Disease</p>
+        </div>
+    </div>
+    <div style="font-weight: bold; margin-left: 50px;">Are You Looking For:</div>
+    <div class="more">
+        <div style="padding: 20px; background-color: #d8e267;margin: 20px;">
+            <span>Doctors</span>
+            <p>Tell us about the doctor</p>
+        </div>
+        <div style="padding: 20px; background-color: #d8e267; margin: 20px;">
+            <span>Consult</span>
+            <p>How do we consult?</p>
+        </div>
+        <div style="padding: 20px; background-color: #d8e267; margin: 20px;">
+            <span>Pharmacy</span>
+            <p>What we do in the pharmacy?</p>
+        </div>
+        <div style="padding: 20px; background-color: #d8e267; margin: 20px;">
+            <span>Diagnostics</span>
+            <p>What about it now?</p>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 2rem;">Our Best <strong>Doctors</strong></div>
+    <div class="main-doctors">
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="kin.png" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr.Michael Maloya</p>
+            <p>The doctor you need to heal matters health.</p>
+            <p>Educational background is important here!</p>
+        </div>
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="michael.png" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr. Mungai Work</p>
+            <p>The doctor you need to heal matters spirit.</p>
+            <p>Educational background is important here!</p>
+        </div>
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="mulela.jpg" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr. Michael  Odawa</p>
+            <p>The doctor you need to heal matters heart.</p>
+            <p>Educational background is important here!</p>
+        </div>
+        <div class="doctors" style="padding: 20px; background-color: #d8e267; margin: 10px;">
+            <span><img src="Dkombo.png" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Dr. David Kombo</p>
+            <p>The doctor you need to heal matters family.</p>
+            <p>Educational background is important here!</p>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 2rem; margin-top: 20px; margin-bottom: 20px;">Easy Step And 
+        <strong>Get Your Solution</strong>
+    </div>
+    <div class="someinfo">
+        <div>
+            <span><img src="doctor profile.png" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Check Doctor Profile</p>
+            <p>some information 1</p>
+        </div>
+        <div>
+            <span><img src="consultation.png" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Request Consultation</p>
+            <p>Some information 2</p>
+        </div>
+        <div>
+            <span><img src="Rconsultation.png" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Receive Your Consultation</p>
+            <p>Some information 3</p>
+        </div>
+        <div>
+            <span><img src="get solution.png" alt="" style="width: 150px; 
+                height: 150px;"></span>
+            <p>Get Your Solution</p>
+            <p>SOme information 4</p>
+        </div>
+    </div>
+    <div class="Doctor22">
+        <div class="sub-doctor22">
+            <div style="font-size: 2rem; text-align: left; margin-top: 20px;margin-bottom: 20px;
+            ">
+                Best Doctor <strong>Anywhere <br>And Anytime</strong></div>
+            <p>This is where you find best doctors across the globe.
+                <br>Follow the doctors well.</p>
+            <p>Anywhere in the world you will find us.<br>Be happy for us!</p><br><br>
+            <button class="button44">Find Doctor Now</button>
+        </div>
+        <span><img src="best doctors anywhere.webp" alt="" style="margin-left: 20px;
+        height: 500px;"></span>
+    </div>
+    <div class="onlinecare">
+        <span><img src="online care.jpg" alt="" style="margin-left: 20px;"></span>
+        <div style="margin-right: 20px; margin-left: 20px;">
+            <p style="font-size: 3rem;">
+                Urgent <strong>Online Care</strong> Solution Your Problem</p>
+            <p>We solve the problem you are facing to ensure you and your family are safe and happy.</p>
+            <p>We keep you safe from all the infectious diseases and attend to your at the convinience of your time.</p>
+            <button style="background-color: black;
+            color: aliceblue; width: 150px; height: 30px;">Take Appointment</button>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 3rem;">
+        What People Say <strong>About Us</strong></div>
+    <div class="about44">
+        <div>
+            <span><img src="patient interview.png" alt="" style="height: 500px; width: 600px;"></span>
+            <p>The view this person has about us</p>
+        </div>
+        <div>
+            <span><img src="patient with us.png" alt=""></span>
+            <p>The view person be has on us</p>
+        </div>
+    </div>
+    <div style="display: flex; margin-left: 20px; align-items: center;">
+        <p style="font-size: 2rem; margin-right: 20px;">Want to <strong>Register</strong> Easily?</p>
+        <button style="background-color: black; color: aliceblue; height: 30px;">
+            Submit Here</button>
+    </div>
+    <div>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
+
